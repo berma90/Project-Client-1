@@ -19,8 +19,8 @@
             <form action="{{ route('login') }}" method="POST">
                 @csrf
                 <div class="mb-4">
-                    <label for="name" class="block text-sm font-medium text-gray-700">User Id</label>
-                    <input type="text" id="name" name="name" required class="mt-1 block w-full px-3 py-2 border border-gray-400 rounded-xl shadow-sm focus:outline-none focus:ring focus:ring-blue-300" >
+                    <label for="nama_lengkap" class="block text-sm font-medium text-gray-700">User Id</label>
+                    <input type="text" id="nama_lengkap" name="nama_lengkap" required class="mt-1 block w-full px-3 py-2 border border-gray-400 rounded-xl shadow-sm focus:outline-none focus:ring focus:ring-blue-300" >
                 </div>
                 <div class="mb-4">
                     <label for="password" class="block text-sm font-medium text-gray-700">Kata Sandi</label>
@@ -28,9 +28,9 @@
                 </div>
                 <button type="submit" class="w-full bg-blue-500 text-white font-bold py-2 rounded hover:bg-blue-700">Masuk</button>
             </form>
-        
+
     </div>
 
-   
+
 </body>
 </html>
